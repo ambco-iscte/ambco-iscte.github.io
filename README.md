@@ -1,8 +1,8 @@
 # 👋 Hey there, I'm Afonso!
 
-[![PDF - My CV](https://img.shields.io/badge/PDF-My_CV-870000?style=for-the-badge&logo=adobe)](https://github.com/ambco-iscte/ambco-iscte/blob/main/CV.pdf)
+[![PDF - My CV](https://img.shields.io/badge/PDF-My_CV-870000?style=for-the-badge&logo=adobe)](CV.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afonso-cani%C3%A7o/)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](discordapp.com/users/830262381728104489)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/830262381728104489)
 [![Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/maxtcc)
 
 Hi! I'm Afonso, a Computer Science and Engineering graduate from Portugal. 🙂
