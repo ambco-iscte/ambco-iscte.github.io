@@ -10,6 +10,8 @@ Hi! I'm Afonso, a Computer Science and Engineering graduate from Portugal. 🙂
 * 🎓 Pursuing a Master's in Computer Engineering at [Iscte-IUL](https://www.iscte-iul.pt/) in Lisbon, Portugal.
 
   * Research work on efficient Software Engineering teaching practices focusing on student learning.
+  * Check out [Witter](https://github.com/ambco-iscte/witter), my thesis project! :)
+
 * 👨‍🏫 Invited Teaching Assistant at [Iscte-IUL](https://www.iscte-iul.pt/).
 
   * Theory of Computation
