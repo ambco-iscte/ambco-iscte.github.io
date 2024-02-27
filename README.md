@@ -7,7 +7,7 @@
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/830262381728104489)
 [![Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/maxtcc)
 
-Hi! I'm Afonso, a Computer Science and Engineering graduate from Portugal. 🙂
+**Hi! I'm Afonso, a Computer Science and Engineering graduate from Portugal.** 🙂
 * 🧠 Interested in Programming, Mathematics (especially when they're both together!), and Teaching. (And other nerdy things.)
 * 🎓 Pursuing a Master's in Computer Engineering at [Iscte-IUL](https://www.iscte-iul.pt/) in Lisbon, Portugal.
 
@@ -18,15 +18,19 @@ Hi! I'm Afonso, a Computer Science and Engineering graduate from Portugal. 🙂
 
   * Theory of Computation
   * Algorithms and Data Structures
+ 
+<br>
 
 <details>
-  <summary><h3>💡 Skills</h3></summary>
+  <summary><strong>💡 Skills</strong></summary>
   
   [![My Skills](https://skillicons.dev/icons?i=java,kotlin,cs,latex,html,css,unity,visualstudio,eclipse)](https://skillicons.dev)
 </details>
 
+<br>
+
 <details>
-  <summary><h3>📈 Stats</h3></summary>
+  <summary><strong>📈 Stats</strong></summary>
   
   ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ambco-iscte&theme=algolia) 
   ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ambco-iscte&theme=algolia)
