@@ -4,8 +4,6 @@
 [![ResearchGate](https://img.shields.io/static/v1?label=&message=ResearchGate&color=%2300ccbb&style=for-the-badge&logo=ResearchGate&logoColor=white)](https://www.researchgate.net/profile/Afonso-Canico)
 [![ORCID](https://img.shields.io/static/v1?label=&message=ORCID&color=white&style=for-the-badge&logo=orcid&logoColor=a6ce39)](https://orcid.org/0009-0009-9334-717X)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afonso-cani%C3%A7o/)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/830262381728104489)
-[![Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/maxtcc)
 
 **Hi! I'm Afonso, a Computer Science and Engineering graduate from Portugal.** 🙂
 * 🧠 Interested in Programming, Mathematics (especially when they're both together!), and Teaching. (And other nerdy things.)
