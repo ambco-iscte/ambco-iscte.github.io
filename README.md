@@ -7,12 +7,19 @@
 
 **Hi! I'm Afonso, a Computer Science and Engineering graduate from Portugal.** 🙂
 * 🧠 Interested in Programming, Mathematics (especially when they're both together!), and Teaching. (And other nerdy things.)
-* 🎓 Pursuing a Master's in Computer Engineering at [Iscte-IUL](https://www.iscte-iul.pt/) in Lisbon, Portugal.
+* 🎓 Pursuing a PhD in Information Science and Technology at Iscte in Lisbon, Portugal.
 
-  * Research work on efficient CS teaching practices focusing on student learning.
+  * Research work on educational tools and methodologies for programming education.
+
+
+* 🎓 Graduate of the Master's in Computer Science and Engineering at Iscte Lisbon, Portugal.
+
+  * Research work on white-box code assessment for programming education.
   * Check out [Witter](https://github.com/ambco-iscte/witter), my dissertation project! :)
+ 
+* 🎓 Graduate of the Bachelor's in Computer Science and Engineering at Iscte in Lisbon, Portugal.
 
-* 👨‍🏫 Invited Teaching Assistant at [Iscte-IUL](https://www.iscte-iul.pt/).
+* 👨‍🏫 Invited Teaching Assistant at [Iscte - Instituto Universitário de Lisboa](https://www.iscte-iul.pt/).
 
   * Theory of Computation
   * Algorithms and Data Structures
