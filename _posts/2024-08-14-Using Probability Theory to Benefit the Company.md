@@ -356,7 +356,7 @@ $$\text{E}[D_n] \approx \frac{130}{3} + \frac{101.196886}{36} (n-1)\left(\frac{n
 
 ## Quota Table
 
-The following is a table, much like [the one in the Lethal Company Wiki](), showing the average quota values, along with the total scrap value required to collect and how that translates to the average scrap value collected per day.
+The following is a table, much like [the one in the Lethal Company Wiki](https://lethal-company.fandom.com/wiki/Profit_Quota#Average_Quota), showing the average quota values, along with the total scrap value required to collect and how that translates to the average scrap value collected per day.
 
 |   **Quota** | **Average $$\pm$$ Standard Deviation**   |   **Average Total Required** |   **Average per Day** |
 |-------------|------------------------------------------|------------------------------|-----------------------|
