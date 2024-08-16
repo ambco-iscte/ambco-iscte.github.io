@@ -7,8 +7,18 @@ description: A Probability Theory Analysis of Lethal Company’s Profit Quota Sy
 math: true
 ---
 
+**Lethal Company** is a "co-op horror game about scavenging at abandoned moons to sell scrap to the Company."[^lcsteam] In the game, you (and up to 3 of your friends) take an autopilot spaceship to several dangerous planets in order to collect scrap items which you can sell to your enigmatic employer, only referred to as The Company. The catch is these planets are the home of several monsters or entitites which will promptly dispatch of unsuspecting scavengers who invade their territory.
+
+The Company's ~~terrible~~ totally legal™ and ethical™ business model relies on its employees completing a sequence of _profit quotas_ which they must fulfill in the span of 3 days. Each time you complete a quota, the next quota will be higher. That is, every 3 days there is an increasing amount of profit you must achieve if you don't want the company to ~~promptly dispatch of you very violently~~ fire you with a modest compensation package. This blog post is sponsored by The Company.
+
+[^lcsteam]: From [Lethal Company on Steam](https://store.steampowered.com/app/1966720/Lethal_Company/), as of August 15th, 2024.
+
+In this post, I'd like to jump head-first into the inner workings of how the quota system works and see if we can derive some useful mathematical results from it.
+
 > This post delves somewhat deeply into some mathematical topics which may not be straightforward to understand. Even I am just trying to learn them! If you'd like to join me in this endeavour, go ahead and read the entire post. If not, feel free to skip to the Results section at the end!
 {: .prompt-info }
+
+<br><br>
 
 # A Quick Lesson in Probability Theory
 
@@ -85,14 +95,6 @@ Note: the quantity $$\text{E}[X^2]$$ looks different from the expected value $$\
 # Applying Probability Theory to Lethal Company
 
 Now that we've established the mathematical tools we will be using, it's time to take a look at what's happening under the hood in Lethal Company.
-
-## A Brief Overview of The Company's Terrible Business Practices
-
-**Lethal Company** is a "co-op horror game about scavenging at abandoned moons to sell scrap to the Company."[^lcsteam] In the game, you (and up to 3 of your friends) take an autopilot spaceship to several dangerous planets in order to collect scrap items which you can sell to your enigmatic employer, only referred to as The Company. The catch is these planets are the home of several monsters or entitites which will promptly dispatch of unsuspecting scavengers who invade their territory.
-
-The Company's ~~terrible~~ totally legal™ and ethical™ business model relies on its employees completing a sequence of _profit quotas_ which they must fulfill in the span of 3 days. Each time you complete a quota, the next quota will be higher. That is, every 3 days there is an increasing amount of profit you must achieve if you don't want the company to ~~promptly dispatch of you very violently~~ fire you with a modest compensation package. This blog post is sponsored by The Company.
-
-[^lcsteam]: From [Lethal Company on Steam](https://store.steampowered.com/app/1966720/Lethal_Company/), as of August 15th, 2024.
 
 ## The Quota System
 
@@ -348,7 +350,7 @@ $$\text{Var}(Q_n) \approx \frac{1000(0.02230549 - 0.01196886^2)}{3}(n-1)\left(\f
 
 The **average total scrap value required to complete the $$n$$-th quota** can be approximated by
 
-$$\text{E}[T_n] \approx 130n + \frac{101.196886}{12} n(n-1)\left(\frac{n^2}{16}+\frac{n}{16}+6\right)$$
+$$\text{E}[T_n] \approx 130n + \frac{101.196886}{12} n(n-1)\left(\frac{n^2}{16}+\frac{n}{16}+6\right).$$
 
 The **average scrap value collected per day required to complete the $$n$$-th quota** can be approximated by
 
