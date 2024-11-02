@@ -767,7 +767,7 @@ The main point is that whether or not an entity spawns depends on:
 
 The point is that entity spawns are strictly *not* independent events. This makes including the Butler knives, shotguns, and shells into the scrap value PDF prohibitively difficult.
 
-This is all opposed to beehives which, in the case of both conditions, only ever spawn at the beginning of the day, and are therefore not subjected to the dependence on other entity spawns. Up to 6 hives can spawn with a fixed probability on every moon. Therefore, on Experimentation, since there is a $$14.86\%$$ chance to spawn a hive, then there is a $$(14.86\%)^2 = 2.21\%$$ to spawn two hives, $$(14.86\%)^3 = 0.33\%$$ to spawn three, and so on. In general, the probability of $$n$$ beehives spawning is given by $$(14.86\%)^n$$, which is easy to calculate directly.
+This is all opposed to beehives which, in the case of both conditions, only ever spawn at the beginning of the day, and are therefore not subjected to the dependence on other entity spawns. Up to 6 hives can spawn with a fixed probability on every moon. For example, on Experimentation, since there is a $$14.86\%$$ chance to spawn a hive, then there is a $$(14.86\%)^2 = 2.21\%$$ to spawn two hives, $$(14.86\%)^3 = 0.33\%$$ to spawn three, and so on. In general, the probability of $$n$$ beehives spawning is given by $$p^n$$, where $$p$$ is the probability of spawning a hive on a given moon, which is easy to calculate directly.
 
 In terms of value, beehives can be worth as anywhere from 40 to 150 scrap value (compared with a fixed 35, 60, and 30 for knife, shotgun, and shotgun shells, respectively). Thus, we consider beehives capable of influencing the pace of a run, and therefore count them towards the total scrap value on a moon in our calculations.
 
@@ -829,7 +829,7 @@ which can be expanded to
 
 $$n = \max\left\{k\in\mathbb{N} : \int_{-\infty}^{-\infty} \left(f_{T_k}(x) \int_{-\infty}^{x} f_{\mathcal{L}_k}(y) dy\right) dx = 0\right\}.$$
 
-We thus obtain the PDFs $$f_{\mathcal{L}_k}(y)$$ and $$f_{T_k}(x)$$ using Kernel Density Estimation on $$N = 10^4$$ samples[^moretakestoolong], as previously described, and then calculate the integral using the resulting functions. If we do so for increasing values of $$k$$, we can get the probability of each quota being possible. Alternatively, we can calculate $$1-\Pr\left(\mathcal{L}_k < T_k\right)$$ to know the probability of the $$k$$-th quota not being possible. The results of these calculations are illustrated in the following figures.
+We thus obtain the PDFs $$f_{\mathcal{L}_k}(y)$$ and $$f_{T_k}(x)$$ using Kernel Density Estimation on $$N = 10^4$$ samples[^moretakestoolong], as previously described, and then calculate the integral using the resulting functions. If we do so for increasing values of $$k$$, we can get the probability of each quota not being possible. Alternatively, we can calculate $$1-\Pr\left(\mathcal{L}_k < T_k\right)$$ to know the probability of the $$k$$-th quota being possible. The results of these calculations are illustrated in the following figures.
 
 [^moretakestoolong]: A higher number of simulations would take too long to execute in our systems, as even $$10^4$$ took approximately a day to execute in total for the three player luck values. While an effort could be made to optimise our methods and algorithms, we argue that this amount is sufficient for our analysis, as more precision in the calculated values would lead to negligible differences in our overall results.
 
@@ -847,6 +847,25 @@ We thus obtain the PDFs $$f_{\mathcal{L}_k}(y)$$ and $$f_{T_k}(x)$$ using Kernel
 
 ![Probability of not enough scrap spawning to complete the quota, for the highest possible luck value.](/assets/img/posts/2024-08-14-Using%20Probability%20Theory%20to%20Benefit%20the%20Company/ViableQuotaProbability%20(0.1545).png)
 *Probability of not enough scrap spawning to complete the quota, for the highest possible luck value.*
+
+#### Special Case - Theoretical Best Luck ($$\ell = 1$$)
+
+As a special case, we analyse what a run could look like if the player's luck is $$\ell = 1$$, its theoretical upper limit. In terms of the progression of the profit quotas, we get that the $$n$$-th quota equals $$\min Q_n$$, which we have previously determined. In particular, we have
+
+$$Q_n \approx Q_1 + \frac{\alpha B}{6} (n - 1)\left(2sn^2 - sn + 6\right),$$
+
+where $$\alpha = 1+mR(0)$$. We can use this to obtain
+
+$$T_n = \sum_{k=1}^{n} Q_n \approx nQ_1 + \frac{\alpha B}{12}\left(sn^4 + (6-s)n^2 - 6n\right).$$
+
+This reduces the probability $$\Pr\left(\mathcal{L}_n < T_n\right)$$, which involves comparing two random variables, to the comparison of the random variable $$\mathcal{L}_n$$ with the now-deterministic $$T_n$$, that is,
+
+$$\Pr\left(\mathcal{L}_n < T_n\right) = \int_{-\infty}^{T_n} f_{\mathcal{L}_n}(x) dx.$$
+
+Performing the same analysis as before but using the new definition for the probability of a quota not being viable gives rise to the results presented in the following figure.
+
+![Probability of not enough scrap spawning to complete the quota, for the theoretical highest possible luck value. These values are not obtainable in the vanilla game as of version 65.](/assets/img/posts/2024-08-14-Using%20Probability%20Theory%20to%20Benefit%20the%20Company/ViableQuotaProbability%20(1).png)
+*Probability of not enough scrap spawning to complete the quota, for the **theoretical** highest possible luck value. These values are not obtainable in the vanilla game as of version 65.*
 
 ### Results
 
@@ -869,24 +888,24 @@ The following table presents the **average scrap value generated per day, includ
 
 Artifice, boasting the higher average scrap value, is undoubtedly the most profitable moon currently in the game. Interestingly, if Liquidation were to be implemented with its current loot table, it'd be more profitable than Artifice by an average of 21 scrap value.
 
-The following table presents the **last viable quota** for each moon, that is, the last quota that you're guaranteed to complete if you play a perfect run, for three different player luck values. After this quota, it is not guaranteed that enough scrap spawns to successfully complete the quota.
+The following table presents the **last viable quota** for each moon, that is, the last quota that you're guaranteed to complete if you play a perfect run, for three different player luck values **which can be obtained in the vanilla game**, along with the theoretical upper bound for player luck. After this quota, it is not guaranteed that enough scrap spawns to successfully complete the quota.
 
-| **Moon**           | **Last Quota (Worst Luck)** | **Last Quota (Neutral Luck)** | **Last Quota (Best Luck)** |
-|--------------------|-----------------------------|-------------------------------|----------------------------|
-| 41 Experimentation | 9                           | 9                             | 10                         |
-| 220 Assurance      | 12                          | 12                            | 13                         |
-| 56 Vow             | 13                          | 13                            | 13                         |
-| 21 Offense         | 13                          | 13                            | 14                         |
-| 61 March           | 13                          | 13                            | 13                         |
-| 20 Adamance        | 14                          | 14                            | 14                         |
-| 85 Rend            | 16                          | 16                            | 17                         |
-| 7 Dine             | 17                          | 17                            | 17                         |
-| 8 Titan            | 18                          | 18                            | 19                         |
-| 68 Artifice        | 19                          | 19                            | 20                         |
-| 44 Liquidation     | 19                          | 19                            | 20                         |
-| 5 Embrion          | 13                          | 13                            | 13                         |
+| **Moon**           | **Last Quota (-0.012)** | **Last Quota (0)** | **Last Quota (0.1545)** | **Last Quota (1)** |
+|--------------------|-------------------------|--------------------|-------------------------|--------------------|
+| 41 Experimentation | 9                       | 9                  | 10                      | 13                 |
+| 220 Assurance      | 12                      | 12                 | 13                      | 17                 |
+| 56 Vow             | 13                      | 13                 | 13                      | 17                 |
+| 21 Offense         | 13                      | 13                 | 14                      | 18                 |
+| 61 March           | 13                      | 13                 | 13                      | 17                 |
+| 20 Adamance        | 14                      | 14                 | 14                      | 19                 |
+| 85 Rend            | 16                      | 16                 | 17                      | 22                 |
+| 7 Dine             | 17                      | 17                 | 17                      | 22                 |
+| 8 Titan            | 18                      | 18                 | 19                      | 24                 |
+| 68 Artifice        | 19                      | 19                 | 20                      | 25                 |
+| 44 Liquidation     | 19                      | 19                 | 20                      | 25                 |
+| 5 Embrion          | 13                      | 13                 | 13                      | 17                 |
 
-From these values, we conclude that luck _might_ aid you in reaching a higher quota on some moons. However, in practice, the extra scrap that has to be sold to acquire all the necessary items, along with the randomness of when they would be available in the store, does not make this, in our opinion, a viable strategy for high-quota runs.
+From these values, we conclude that luck, as currently implemented in the game, _might_ aid you in reaching a higher quota on some moons. However, in practice, the extra scrap that has to be sold to acquire all the necessary items, along with the randomness of when they would be available in the store, does not make this, in our opinion, a viable strategy for vanilla v65 high-quota runs.
 
 <br><br>
 
