@@ -1,0 +1,104 @@
+{
+  "status": "SUCCESS",
+  "error": null,
+  "result": {
+    "publication_types": [
+      {
+        "id": 4,
+        "label": "Publicação de projecto de arquitectura"
+      },
+      {
+        "id": 17,
+        "label": "Referência a projecto de arquitectura"
+      },
+      {
+        "id": 2,
+        "label": "Autor de livro"
+      },
+      {
+        "id": 5,
+        "label": "Capítulo de livro"
+      },
+      {
+        "id": 3,
+        "label": "Editor de livro"
+      },
+      {
+        "id": 26,
+        "label": "Artigo não publicado nas atas da conferência"
+      },
+      {
+        "id": 7,
+        "label": "Editor de atas de evento científico"
+      },
+      {
+        "id": 28,
+        "label": "Tese de Doutoramento"
+      },
+      {
+        "id": 23,
+        "label": "Editorial"
+      },
+      {
+        "id": 8,
+        "label": "Entrada/Posfácio/Prefácio"
+      },
+      {
+        "id": 24,
+        "label": "Errata"
+      },
+      {
+        "id": 27,
+        "label": "Dissertação de Mestrado"
+      },
+      {
+        "id": 29,
+        "label": "Periódico generalista"
+      },
+      {
+        "id": 10,
+        "label": "Artigo sem avaliação científica"
+      },
+      {
+        "id": 20,
+        "label": "Outras publicações"
+      },
+      {
+        "id": 22,
+        "label": "Artigo no prelo (in press)"
+      },
+      {
+        "id": 6,
+        "label": "Publicação em atas de evento científico"
+      },
+      {
+        "id": 18,
+        "label": "Recensão de obra em revista"
+      },
+      {
+        "id": 30,
+        "label": "Relatório"
+      },
+      {
+        "id": 25,
+        "label": "Artigo de revisão"
+      },
+      {
+        "id": 21,
+        "label": "Editor de revista científica"
+      },
+      {
+        "id": 1,
+        "label": "Artigo em revista científica"
+      },
+      {
+        "id": 19,
+        "label": "Comunicação em evento científico"
+      },
+      {
+        "id": 9,
+        "label": "Working paper"
+      }
+    ]
+  }
+}

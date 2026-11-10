@@ -1,0 +1,247 @@
+# GPTBot (OpenAI)
+User-agent: GPTBot
+Disallow: /
+
+# ChatGPT-User (OpenAI)
+User-agent: ChatGPT-User
+Disallow: /
+
+# OAI-SearchBot (OpenAI)
+User-agent: OAI-SearchBot
+Disallow: /
+
+# ClaudeBot (Anthropic)
+User-agent: ClaudeBot
+Disallow: /
+
+# PerplexityBot (Perplexity AI)
+User-agent: PerplexityBot
+Disallow: /
+
+# Google-Extended (Google)
+User-agent: Google-Extended
+Disallow: /
+
+# Gemini (Google)
+User-agent: Google-InspectionTool
+Disallow: /
+
+# Bytespider (ByteDance)
+User-agent: Bytespider
+Disallow: /
+
+# CCBot (Common Crawl)
+User-agent: CCBot/2.0 (https://commoncrawl.org/faq/)
+Disallow: /
+
+# Amazonbot (Amazon)
+User-agent: Amazonbot
+Disallow: /
+
+# AppleBot-Extended (Apple)
+User-agent: Applebot-Extended
+Disallow: /
+
+# FacebookBot (Meta)
+User-agent: FacebookBot
+Disallow: /
+
+# Meta-ExternalAgent (Meta)
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# cohere-ai (Cohere)
+User-agent: cohere-ai
+Disallow: /
+
+# YouBot (You.com)
+User-agent: YouBot
+Disallow: /
+
+# Diffbot (Diffbot)
+User-agent: Diffbot
+Disallow: /
+
+# PetalBot (Huawei (Petal Search))
+User-agent: PetalBot
+Disallow: /
+
+# Barkrowler (Babbar)
+User-agent: Barkrowler
+Disallow: /
+
+# Timpibot (Timpi)
+User-agent: Timpibot
+Disallow: /
+
+# Seekr (Seekr Technologies)
+User-agent: Seekr
+Disallow: /
+
+# Kangaroo Bot (Kangaroo LTD)
+User-agent: Kangaroo
+Disallow: /
+
+# Velenpublicwebcrawler (Velen)
+User-agent: Velenpublicwebcrawler
+Disallow: /
+
+# Omgili (Omgili (Webz.io))
+User-agent: omgili
+Disallow: /
+
+# ICC-Crawler (NICT (Japan))
+User-agent: ICC-Crawler
+Disallow: /
+
+# Brightbot (Bright Data)
+User-agent: BrightBot
+Disallow: /
+
+# Scrapy (Open Source (Zyte))
+User-agent: Scrapy/2.11 (+https://scrapy.org)
+Disallow: /
+
+# xAI-Bot (xAI (Elon Musk))
+User-agent: xAI-Bot
+Disallow: /
+
+# DuckAssistBot (DuckDuckGo)
+User-agent: DuckAssistBot
+Disallow: /
+
+# Bingbot (Microsoft)
+User-agent: bingbot
+Disallow: /
+
+# Ai2Bot (Allen Institute for AI (Ai2))
+User-agent: Ai2Bot
+Disallow: /
+
+# MistralBot (Mistral AI)
+User-agent: MistralBot
+Disallow: /
+
+# Googlebot (Google)
+User-agent: Googlebot
+Disallow: /
+
+# Applebot (Apple)
+User-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)
+Disallow: /
+
+# AhrefsBot (Ahrefs)
+User-agent: AhrefsBot
+Disallow: /
+
+# SemrushBot (Semrush)
+User-agent: SemrushBot
+Disallow: /
+
+# YandexBot (Yandex)
+User-agent: YandexBot
+Disallow: /
+
+# Baiduspider (Baidu)
+User-agent: Baiduspider
+Disallow: /
+
+# BraveBot (Brave)
+User-agent: BraveBot
+Disallow: /
+
+# NaverBot (Naver)
+User-agent: Yeti
+Disallow: /
+
+# HuggingFaceBot (Hugging Face)
+User-agent: HuggingFaceBot
+Disallow: /
+
+# DuckDuckBot (DuckDuckGo)
+User-agent: DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html)
+Disallow: /
+
+# LinkedInBot (LinkedIn (Microsoft))
+User-agent: Mozilla
+Disallow: /
+
+# archive.org_bot (Internet Archive)
+User-agent: archive.org_bot
+Disallow: /
+
+# TurnitinBot (Turnitin)
+User-agent: TurnitinBot/3.0 (https://turnitin.com/robot/crawlerinfo.html)
+Disallow: /
+
+# iaskspider (iAsk.ai)
+User-agent: iaskspider/1.0 (+https://iask.ai/)
+Disallow: /
+
+# Sogou (Tencent)
+User-agent: Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Disallow: /
+
+# DataForSeoBot (DataForSEO)
+User-agent: DataForSeoBot
+Disallow: /
+
+# MJ12bot (Majestic)
+User-agent: MJ12bot/v1.4.8 (http://majestic.com/research/majestic-12?V=1.4.8)
+Disallow: /
+
+# rogerbot (Moz)
+User-agent: rogerbot/1.0 (http://moz.com/help/pro/what-is-rogerbot- +http://moz.com/help/pro/what-is-rogerbot)
+Disallow: /
+
+# DeepSeekBot (DeepSeek)
+User-agent: DeepSeekBot
+Disallow: /
+
+# Firecrawl (Mendable / Firecrawl)
+User-agent: Firecrawl/1.0 (+https://firecrawl.dev)
+Disallow: /
+
+# JinaBot (Jina AI)
+User-agent: JinaBot
+Disallow: /
+
+# ExaBot (Exa AI)
+User-agent: Exa-Search
+Disallow: /
+
+# MojeekBot (Mojeek)
+User-agent: MojeekBot/0.11 (https://www.mojeek.com/bot.html)
+Disallow: /
+
+# ApifyBot (Apify)
+User-agent: ApifyBot
+Disallow: /
+
+# QwenBot (Alibaba Cloud)
+User-agent: QwenBot
+Disallow: /
+
+# YandexGPT (Yandex)
+User-agent: YandexGPT
+Disallow: /
+
+# img2dataset (HuggingFace / Community)
+User-agent: img2dataset
+Disallow: /
+
+# NewsPlease (Community / Various)
+User-agent: news-please/1.5
+Disallow: /
+
+# Slurp (Yahoo / Verizon Media)
+User-agent: Slurp
+Disallow: /
+
+# Twitterbot (X (formerly Twitter))
+User-agent: Twitterbot
+Disallow: /
+
+# Default — allow all other crawlers
+User-agent: *
+Allow: /

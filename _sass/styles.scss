@@ -1,0 +1,65 @@
+// Import Core Clean Blog SCSS
+@import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
+
+.subheading {
+    text-shadow: 0 0 5px black, 0 0 10px black;
+}
+
+.subheading-simple {
+  text-shadow: 0 0 0px black !important;
+  font-weight: 300 !important;
+}
+
+.catppuccin-text {
+  background-color: #4c4f69 !important;
+}
+
+.copyright-font {
+  font-size: 14px;
+}
+
+.publication-authors {
+  display: inline-flex;
+  column-gap: 1em;
+  row-gap: 0;
+  flex-wrap: wrap;
+
+}
+
+.publication-author {
+  display: inline-flex;
+  gap: 0.3em;
+  align-items: baseline;
+}
+
+.orcid-icon {
+  color: rgb(166, 206, 57);
+}
+
+.hr-3 {
+  border-top: 3px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.fontsize-2 {
+  font-size: 1.5em;
+}
+
+.container:not(.navbar *) {
+  max-width: 70% !important;
+}
+
+#phd-map {
+  max-width: 100% !important;
+  border: 3px solid black;
+}
+
+#about-cooking {
+  max-width: 100% !important;
+}
+
+body {
+  background-color: #eff1f5;
+}
+
+
+

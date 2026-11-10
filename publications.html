@@ -1,0 +1,76 @@
+---
+layout: page
+title: Publications
+description: I write papers. Sometimes, they're even good!
+background: '/images/backgrounds/uml.jpg'
+---
+
+<style>
+.container:not(.navbar *) {
+  max-width: 100% !important;
+}
+</style>
+
+{% assign years = page.publications | map: "year_online" | uniq | sort_natural | reverse %}
+
+{% for year in years %}
+  {% assign publications = page.publications | where: "year_online", year %}
+
+  <h1>{{ year }}</h1>
+  <hr class="hr-3"/>
+
+  {% for publication in publications %}
+
+    <article class="post-preview">
+
+        <!-- Publication Title -->
+        {% assign link = publication.more_info_url %}
+        {% for external_id in publication.external_ids %}
+          {% assign label = external_id.id_type_label | split: " " | first %}
+          {% if label == "DOI" %}
+            {% assign link = "https://www.doi.org/" | append: external_id.id_value %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        <a href="{{ link }}">
+          <h3 class="post-meta text-capitalize">{{ publication.title }}</h3> 
+        </a>
+
+        <!-- List of Authors -->
+        <div class="publication-authors">
+          {% for author in publication.authors %}
+            <div class="publication-author">
+              <h5 class="font-weight-normal">{{ author.name }}</h5>
+              {% if author.orcid_id %}
+                <a href="https://orcid.org/{{ author.orcid_id }}"><i class="fab fa-orcid orcid-icon"></i></a>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+
+        <!-- Venue (and Quartile; optional)-->
+        <p class="post-meta">
+          {{ publication.container }} 
+          {% if publication.type_id == 1 and publication.quartile %}
+            &middot; <strong> Q{{ publication.quartile }} Journal</strong>
+          {% elsif publication.type_id == 27 %}
+            <strong>Master's Dissertation</strong>
+          {% endif %}
+        </p>
+
+    </article>
+
+  {% endfor %}
+
+  <br/>
+
+{% endfor %}
+
+<p class="copyright-font text-muted text-center mb-3 mt-3 pt-5">
+  The information on this page was compiled from
+  <a class="text-muted" href="https://ciencia.iscte-iul.pt/authors/{{ site.ciencia_iul }}/publications">my institutional profile page</a>
+  on {{ 'now' | date: "%B %d, %Y" }}.
+</p>
+
+

@@ -1,0 +1,72 @@
+---
+layout: page
+title: About Me
+description: A fun fact about me is...
+background: 'images/backgrounds/reading.jpg'
+---
+
+<h1 class="text-primary">Hi, I'm Afonso! <i class="fa-regular fa-face-smile"></i></h1>
+
+<p>I'm a Ph.D. Candidate in Information Science and Technology at <a href="https://iscte-iul.pt/">ISCTE-IUL</a> in Lisbon, Portugal. My research work is on Programming Education.</p>
+
+<p>I have a Bachelor's and a Master's Degree in Computer Science and Engineering.</p>
+
+<h1 class="section-heading">🔬 My Research Interests</h1>
+
+<p>My primary research interests are educational resource generation, educational programming tools, and automated evaluation.</p>
+<ul>
+  <li>🔬 I’m currently working on automated generation of personalised questions about code.</li>
+  <li>☕ I’m in too deep within the JVM domain (Java and Kotlin).</li>
+  <li>🎓 I maintain the automated grading tool for the Algorithms and Data Structures course of the Computer Engineering programme at ISCTE-IUL.</li>
+</ul>
+
+<h1 class="section-heading">👨‍🏫 My Teaching Activities</h1>
+
+<p>I'm currently teaching or have taught these courses:</p>
+
+{% assign course_names = page.teaching_activities | map: "course_designation" | uniq %}
+
+<table class="table table-striped">
+  <thead class="table-primary">
+    <tr>
+      <th>Course</th>
+      <th>Degrees</th>
+      <th>Years</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    {% for course_name in course_names %}
+      {% assign offerings = page.teaching_activities | where: "course_designation", course_name %}
+      {% assign course = offerings | first %}
+
+      {% assign degrees = offerings | map: "degrees" | join: "" | split: "; " | uniq | join: "<br>" %}
+      {% assign years = offerings | map: "teaching_year" | uniq | join: "<br>" %}
+
+      <tr>
+        <td><a href="{{ course.course_fuc_url }}">{{ course_name }}</a></td>
+        <td>{{ degrees }}</td>
+        <td> {{ years }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+
+</table>
+
+<h1 class="section-heading">🥘 I Also Do Volunteer Work</h1>
+
+<p>
+  I volunteer at <a href="https://amurt.pt/">AMURT</a>'s Community Kitchen in Lisbon, Portugal. 
+  Once a week, we cook enough vegan food for around 40 to 50 individual meals.
+  We deliver these meals to <a href="https://re-food.org/en/home">REFOOD</a> on the same day, where they are then served (still warm!) to those in need.
+</p>
+
+<p>Here's me having the time of my life cooking an enormous pot of soy bolognese:</p>
+
+<picture class="mb-2 mt-0">
+  <img src="images/cooking.jpeg" id="about-cooking" class="mt-2"/>
+</picture>
+
+<p class="copyright-font text-muted text-center mb-3 mt-5 pt-5">
+  Want a formal account of my education and professional activities? <a href="https://github.com/ambco-iscte/ambco-iscte/blob/main/CV.pdf?raw=true">Check out my resumé!</a>
+</p>
