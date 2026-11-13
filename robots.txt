@@ -1,247 +1,1060 @@
-# GPTBot (OpenAI)
-User-agent: GPTBot
-Disallow: /
-
 # ChatGPT-User (OpenAI)
 User-agent: ChatGPT-User
 Disallow: /
 
-# OAI-SearchBot (OpenAI)
-User-agent: OAI-SearchBot
+# ChatGPT-User/2.0 (OpenAI)
+User-agent: ChatGPT-User/2.0
 Disallow: /
 
 # ClaudeBot (Anthropic)
 User-agent: ClaudeBot
 Disallow: /
 
-# PerplexityBot (Perplexity AI)
-User-agent: PerplexityBot
-Disallow: /
-
 # Google-Extended (Google)
 User-agent: Google-Extended
 Disallow: /
 
-# Gemini (Google)
-User-agent: Google-InspectionTool
-Disallow: /
-
-# Bytespider (ByteDance)
-User-agent: Bytespider
-Disallow: /
-
-# CCBot (Common Crawl)
-User-agent: CCBot/2.0 (https://commoncrawl.org/faq/)
-Disallow: /
-
-# Amazonbot (Amazon)
-User-agent: Amazonbot
-Disallow: /
-
-# AppleBot-Extended (Apple)
-User-agent: Applebot-Extended
-Disallow: /
-
-# FacebookBot (Meta)
-User-agent: FacebookBot
+# GPTBot (OpenAI)
+User-agent: GPTBot
 Disallow: /
 
 # Meta-ExternalAgent (Meta)
 User-agent: Meta-ExternalAgent
 Disallow: /
 
+# OAI-SearchBot (OpenAI)
+User-agent: OAI-SearchBot
+Disallow: /
+
+# PerplexityBot (Perplexity AI)
+User-agent: PerplexityBot
+Disallow: /
+
+# ChatGPT Agent (OpenAI)
+User-agent: ChatGPT Agent
+Disallow: /
+
+# ChatGPT Operator (OpenAI)
+User-agent: ChatGPT Operator
+Disallow: /
+
+# Claude-SearchBot (Anthropic)
+User-agent: Claude-SearchBot
+Disallow: /
+
+# Claude-User (Anthropic)
+User-agent: Claude-User
+Disallow: /
+
+# GrokAgent (xAI)
+User-agent: GrokAgent
+Disallow: /
+
+# muse- (Meta)
+User-agent: muse-
+Disallow: /
+
+# AI2Bot (Allen Institute for AI)
+User-agent: AI2Bot
+Disallow: /
+
+# Amazonbot (Amazon)
+User-agent: Amazonbot
+Disallow: /
+
+# Applebot-Extended (Apple)
+User-agent: Applebot-Extended
+Disallow: /
+
+# Bravebot (Brave)
+User-agent: Bravebot
+Disallow: /
+
+# Bytespider (ByteDance)
+User-agent: Bytespider
+Disallow: /
+
 # cohere-ai (Cohere)
 User-agent: cohere-ai
-Disallow: /
-
-# YouBot (You.com)
-User-agent: YouBot
-Disallow: /
-
-# Diffbot (Diffbot)
-User-agent: Diffbot
-Disallow: /
-
-# PetalBot (Huawei (Petal Search))
-User-agent: PetalBot
-Disallow: /
-
-# Barkrowler (Babbar)
-User-agent: Barkrowler
-Disallow: /
-
-# Timpibot (Timpi)
-User-agent: Timpibot
-Disallow: /
-
-# Seekr (Seekr Technologies)
-User-agent: Seekr
-Disallow: /
-
-# Kangaroo Bot (Kangaroo LTD)
-User-agent: Kangaroo
-Disallow: /
-
-# Velenpublicwebcrawler (Velen)
-User-agent: Velenpublicwebcrawler
-Disallow: /
-
-# Omgili (Omgili (Webz.io))
-User-agent: omgili
-Disallow: /
-
-# ICC-Crawler (NICT (Japan))
-User-agent: ICC-Crawler
-Disallow: /
-
-# Brightbot (Bright Data)
-User-agent: BrightBot
-Disallow: /
-
-# Scrapy (Open Source (Zyte))
-User-agent: Scrapy/2.11 (+https://scrapy.org)
-Disallow: /
-
-# xAI-Bot (xAI (Elon Musk))
-User-agent: xAI-Bot
-Disallow: /
-
-# DuckAssistBot (DuckDuckGo)
-User-agent: DuckAssistBot
-Disallow: /
-
-# Bingbot (Microsoft)
-User-agent: bingbot
-Disallow: /
-
-# Ai2Bot (Allen Institute for AI (Ai2))
-User-agent: Ai2Bot
-Disallow: /
-
-# MistralBot (Mistral AI)
-User-agent: MistralBot
-Disallow: /
-
-# Googlebot (Google)
-User-agent: Googlebot
-Disallow: /
-
-# Applebot (Apple)
-User-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)
-Disallow: /
-
-# AhrefsBot (Ahrefs)
-User-agent: AhrefsBot
-Disallow: /
-
-# SemrushBot (Semrush)
-User-agent: SemrushBot
-Disallow: /
-
-# YandexBot (Yandex)
-User-agent: YandexBot
-Disallow: /
-
-# Baiduspider (Baidu)
-User-agent: Baiduspider
-Disallow: /
-
-# BraveBot (Brave)
-User-agent: BraveBot
-Disallow: /
-
-# NaverBot (Naver)
-User-agent: Yeti
-Disallow: /
-
-# HuggingFaceBot (Hugging Face)
-User-agent: HuggingFaceBot
-Disallow: /
-
-# DuckDuckBot (DuckDuckGo)
-User-agent: DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html)
-Disallow: /
-
-# LinkedInBot (LinkedIn (Microsoft))
-User-agent: Mozilla
-Disallow: /
-
-# archive.org_bot (Internet Archive)
-User-agent: archive.org_bot
-Disallow: /
-
-# TurnitinBot (Turnitin)
-User-agent: TurnitinBot/3.0 (https://turnitin.com/robot/crawlerinfo.html)
-Disallow: /
-
-# iaskspider (iAsk.ai)
-User-agent: iaskspider/1.0 (+https://iask.ai/)
-Disallow: /
-
-# Sogou (Tencent)
-User-agent: Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
-Disallow: /
-
-# DataForSeoBot (DataForSEO)
-User-agent: DataForSeoBot
-Disallow: /
-
-# MJ12bot (Majestic)
-User-agent: MJ12bot/v1.4.8 (http://majestic.com/research/majestic-12?V=1.4.8)
-Disallow: /
-
-# rogerbot (Moz)
-User-agent: rogerbot/1.0 (http://moz.com/help/pro/what-is-rogerbot- +http://moz.com/help/pro/what-is-rogerbot)
 Disallow: /
 
 # DeepSeekBot (DeepSeek)
 User-agent: DeepSeekBot
 Disallow: /
 
-# Firecrawl (Mendable / Firecrawl)
-User-agent: Firecrawl/1.0 (+https://firecrawl.dev)
+# DuckAssistBot (DuckDuckGo)
+User-agent: DuckAssistBot
 Disallow: /
 
-# JinaBot (Jina AI)
-User-agent: JinaBot
+# img2dataset (Open Source Community)
+User-agent: img2dataset
 Disallow: /
 
-# ExaBot (Exa AI)
-User-agent: Exa-Search
+# QwenBot (Alibaba)
+User-agent: QwenBot
+Disallow: /
+
+# YouBot (You)
+User-agent: YouBot
+Disallow: /
+
+# AddSearchBot (AddSearch)
+User-agent: AddSearchBot
+Disallow: /
+
+# AI2Bot-DeepResearchEval (Allen Institute for AI)
+User-agent: AI2Bot-DeepResearchEval
+Disallow: /
+
+# aiHitBot (aiHit)
+User-agent: aiHitBot
+Disallow: /
+
+# AIWebIndex (Lyrenth)
+User-agent: AIWebIndex
+Disallow: /
+
+# AmazonBuyForMe (Amazon)
+User-agent: AmazonBuyForMe
+Disallow: /
+
+# Amzn-User (Amazon)
+User-agent: Amzn-User
+Disallow: /
+
+# Andibot (Andi)
+User-agent: Andibot
+Disallow: /
+
+# anthropic-ai (Anthropic)
+User-agent: anthropic-ai
+Disallow: /
+
+# atlassian-bot (Atlassian)
+User-agent: atlassian-bot
+Disallow: /
+
+# AzureAI-SearchBot (Microsoft)
+User-agent: AzureAI-SearchBot
+Disallow: /
+
+# bedrockbot (Amazon)
+User-agent: bedrockbot
+Disallow: /
+
+# ChatGLM-Spider (Zhipu AI)
+User-agent: ChatGLM-Spider
+Disallow: /
+
+# Claude-Code (Anthropic)
+User-agent: Claude-Code
+Disallow: /
+
+# Claude-Web (Anthropic)
+User-agent: Claude-Web
+Disallow: /
+
+# Cloudflare-AI-Search (Cloudflare)
+User-agent: Cloudflare-AI-Search
+Disallow: /
+
+# Cloudflare-AutoRAG (Cloudflare)
+User-agent: Cloudflare-AutoRAG
+Disallow: /
+
+# cohere-training-data-crawler (Cohere)
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# Devin (Cognition AI)
+User-agent: Devin
+Disallow: /
+
+# DoubaoBot (ByteDance)
+User-agent: DoubaoBot
+Disallow: /
+
+# ERNIEBot (Baidu)
+User-agent: ERNIEBot
+Disallow: /
+
+# ExaBot (Exa)
+User-agent: ExaBot
+Disallow: /
+
+# ExaSearchBot (Exa)
+User-agent: ExaSearchBot
+Disallow: /
+
+# FirecrawlAgent (Firecrawl)
+User-agent: FirecrawlAgent
+Disallow: /
+
+# Google-Agent (Google)
+User-agent: Google-Agent
+Disallow: /
+
+# Google-Firebase (Google)
+User-agent: Google-Firebase
+Disallow: /
+
+# Google-Gemini-CLI (Google)
+User-agent: Google-Gemini-CLI
+Disallow: /
+
+# Google-GeminiNotebook (Google)
+User-agent: Google-GeminiNotebook
+Disallow: /
+
+# GoogleAgent-Mariner (Google)
+User-agent: GoogleAgent-Mariner
+Disallow: /
+
+# GoogleAgent-URLContext (Google)
+User-agent: GoogleAgent-URLContext
+Disallow: /
+
+# GrokBot (xAI)
+User-agent: GrokBot
+Disallow: /
+
+# HarkBot (Hark)
+User-agent: HarkBot
+Disallow: /
+
+# iAskBot (iAsk)
+User-agent: iAskBot
+Disallow: /
+
+# iaskspider (iAsk)
+User-agent: iaskspider
+Disallow: /
+
+# kagi-fetcher (Kagi)
+User-agent: kagi-fetcher
+Disallow: /
+
+# KeenableBot (Keenable)
+User-agent: KeenableBot
+Disallow: /
+
+# KernelSearchBot (Kernel)
+User-agent: KernelSearchBot
+Disallow: /
+
+# Kimi-SearchBot (Moonshot AI)
+User-agent: Kimi-SearchBot
+Disallow: /
+
+# Kimi-User (Moonshot AI)
+User-agent: Kimi-User
+Disallow: /
+
+# KimiBot (Moonshot AI)
+User-agent: KimiBot
+Disallow: /
+
+# KlaviyoAIBot (Klaviyo)
+User-agent: KlaviyoAIBot
+Disallow: /
+
+# LAIONDownloader (LAION)
+User-agent: LAIONDownloader
+Disallow: /
+
+# LinerBot (LINER)
+User-agent: LinerBot
+Disallow: /
+
+# LinkupBot (Linkup)
+User-agent: LinkupBot
+Disallow: /
+
+# Manus-User (Manus)
+User-agent: Manus-User
+Disallow: /
+
+# Meta-ExternalFetcher (Meta)
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+# meta-webindexer (Meta)
+User-agent: meta-webindexer
+Disallow: /
+
+# MistralAI-Index (Mistral AI)
+User-agent: MistralAI-Index
+Disallow: /
+
+# MistralAI-Training (Mistral AI)
+User-agent: MistralAI-Training
+Disallow: /
+
+# MistralAI-User (Mistral AI)
+User-agent: MistralAI-User
+Disallow: /
+
+# MistralAI-User-1.0 (Mistral AI)
+User-agent: MistralAI-User-1.0
+Disallow: /
+
+# Mozilla-Tabstack (Mozilla)
+User-agent: Mozilla-Tabstack
+Disallow: /
+
+# MyCentralAIScraperBot (MyCentral AI)
+User-agent: MyCentralAIScraperBot
+Disallow: /
+
+# NovaAct (Amazon)
+User-agent: NovaAct
+Disallow: /
+
+# OAI-AdsBot (OpenAI)
+User-agent: OAI-AdsBot
+Disallow: /
+
+# PanguBot (Huawei)
+User-agent: PanguBot
+Disallow: /
+
+# Perplexity-User (Perplexity AI)
+User-agent: Perplexity-User
+Disallow: /
+
+# Perplexity-User-1.0 (Perplexity AI)
+User-agent: Perplexity-User-1.0
+Disallow: /
+
+# PhindBot (Phind)
+User-agent: PhindBot
+Disallow: /
+
+# QuillBot (QuillBot)
+User-agent: QuillBot
+Disallow: /
+
+# Reflectionbot (Reflection AI)
+User-agent: Reflectionbot
+Disallow: /
+
+# SBIntuitions-SearchBot (SB Intuitions)
+User-agent: SBIntuitions-SearchBot
+Disallow: /
+
+# SBIntuitionsBot (SB Intuitions)
+User-agent: SBIntuitionsBot
+Disallow: /
+
+# TavilyBot (Tavily)
+User-agent: TavilyBot
+Disallow: /
+
+# TerraCotta (Ceramic AI)
+User-agent: TerraCotta
+Disallow: /
+
+# TikTokSpider (ByteDance)
+User-agent: TikTokSpider
+Disallow: /
+
+# TongyiBot (Alibaba)
+User-agent: TongyiBot
+Disallow: /
+
+# WRTNBot (WRTN)
+User-agent: WRTNBot
+Disallow: /
+
+# xAI-SearchBot (xAI)
+User-agent: xAI-SearchBot
+Disallow: /
+
+# YiyanBot (Baidu)
+User-agent: YiyanBot
+Disallow: /
+
+# Baiduspider (Baidu)
+User-agent: Baiduspider
+Disallow: /
+
+# bingbot (Microsoft)
+User-agent: bingbot
+Disallow: /
+
+# Google-InspectionTool (Google)
+User-agent: Google-InspectionTool
+Disallow: /
+
+# Googlebot (Google)
+User-agent: Googlebot
+Disallow: /
+
+# PetalBot (Huawei)
+User-agent: PetalBot
+Disallow: /
+
+# Slurp (Yahoo)
+User-agent: Slurp
+Disallow: /
+
+# YandexBot (Yandex)
+User-agent: YandexBot
+Disallow: /
+
+# Yeti (Naver)
+User-agent: Yeti
+Disallow: /
+
+# AdIdxBot (Microsoft)
+User-agent: AdIdxBot
+Disallow: /
+
+# AdsBot-Google (Google)
+User-agent: AdsBot-Google
+Disallow: /
+
+# AdsBot-Google-Mobile (Google)
+User-agent: AdsBot-Google-Mobile
+Disallow: /
+
+# AIWebIndex-Agent (Lyrenth)
+User-agent: AIWebIndex-Agent
+Disallow: /
+
+# alphalens-bot (Alphalens)
+User-agent: alphalens-bot
+Disallow: /
+
+# amazon-QBusiness (Amazon)
+User-agent: amazon-QBusiness
+Disallow: /
+
+# Amzn-SearchBot (Amazon)
+User-agent: Amzn-SearchBot
+Disallow: /
+
+# Anomura (Direqt)
+User-agent: Anomura
+Disallow: /
+
+# APIs-Google (Google)
+User-agent: APIs-Google
+Disallow: /
+
+# Applebot (Apple)
+User-agent: Applebot
+Disallow: /
+
+# baidu (Baidu)
+User-agent: baidu
+Disallow: /
+
+# Baiduspider-ads (Baidu)
+User-agent: Baiduspider-ads
+Disallow: /
+
+# Baiduspider-cpro (Baidu)
+User-agent: Baiduspider-cpro
+Disallow: /
+
+# Baiduspider-favo (Baidu)
+User-agent: Baiduspider-favo
+Disallow: /
+
+# Baiduspider-image (Baidu)
+User-agent: Baiduspider-image
+Disallow: /
+
+# Baiduspider-news (Baidu)
+User-agent: Baiduspider-news
+Disallow: /
+
+# Baiduspider-video (Baidu)
+User-agent: Baiduspider-video
+Disallow: /
+
+# BingPreview (Microsoft)
+User-agent: BingPreview
+Disallow: /
+
+# BingVideoPreview (Microsoft)
+User-agent: BingVideoPreview
+Disallow: /
+
+# Channel3Bot (Channel3)
+User-agent: Channel3Bot
+Disallow: /
+
+# Cloudflare-AI-Search-External (Cloudflare)
+User-agent: Cloudflare-AI-Search-External
+Disallow: /
+
+# CloudflareBrowserRenderingCrawler (Cloudflare)
+User-agent: CloudflareBrowserRenderingCrawler
+Disallow: /
+
+# Cursor (Anysphere)
+User-agent: Cursor
+Disallow: /
+
+# Diffbot-User (Diffbot)
+User-agent: Diffbot-User
+Disallow: /
+
+# DuckDuckBot (DuckDuckGo)
+User-agent: DuckDuckBot
+Disallow: /
+
+# FeedFetcher-Google (Google)
+User-agent: FeedFetcher-Google
+Disallow: /
+
+# Gemini-Deep-Research (Google)
+User-agent: Gemini-Deep-Research
+Disallow: /
+
+# Google-CloudVertexBot (Google)
+User-agent: Google-CloudVertexBot
+Disallow: /
+
+# Google-NotebookLM (Google)
+User-agent: Google-NotebookLM
+Disallow: /
+
+# Google-Pinpoint (Google)
+User-agent: Google-Pinpoint
+Disallow: /
+
+# Google-Read-Aloud (Google)
+User-agent: Google-Read-Aloud
+Disallow: /
+
+# Google-Safety (Google)
+User-agent: Google-Safety
+Disallow: /
+
+# Google-Site-Verification (Google)
+User-agent: Google-Site-Verification
+Disallow: /
+
+# Googlebot-Image (Google)
+User-agent: Googlebot-Image
+Disallow: /
+
+# Googlebot-News (Google)
+User-agent: Googlebot-News
+Disallow: /
+
+# Googlebot-Video (Google)
+User-agent: Googlebot-Video
+Disallow: /
+
+# GoogleOther (Google)
+User-agent: GoogleOther
+Disallow: /
+
+# GoogleOther-Image (Google)
+User-agent: GoogleOther-Image
+Disallow: /
+
+# GoogleOther-Video (Google)
+User-agent: GoogleOther-Video
+Disallow: /
+
+# GoogleProducer (Google)
+User-agent: GoogleProducer
+Disallow: /
+
+# IbouBot (Ibou)
+User-agent: IbouBot
+Disallow: /
+
+# Kagibot (Kagi)
+User-agent: Kagibot
+Disallow: /
+
+# Keenable-User (Keenable)
+User-agent: Keenable-User
+Disallow: /
+
+# Mediapartners-Google (Google)
+User-agent: Mediapartners-Google
+Disallow: /
+
+# MicrosoftPreview (Microsoft)
+User-agent: MicrosoftPreview
+Disallow: /
+
+# Mojeek (Mojeek)
+User-agent: Mojeek
 Disallow: /
 
 # MojeekBot (Mojeek)
-User-agent: MojeekBot/0.11 (https://www.mojeek.com/bot.html)
+User-agent: MojeekBot
+Disallow: /
+
+# opencode (OpenCode)
+User-agent: opencode
+Disallow: /
+
+# SeznamBot (Seznam)
+User-agent: SeznamBot
+Disallow: /
+
+# Shap-User (Parallel)
+User-agent: Shap-User
+Disallow: /
+
+# ShapBot (Parallel)
+User-agent: ShapBot
+Disallow: /
+
+# Storebot-Google (Google)
+User-agent: Storebot-Google
+Disallow: /
+
+# Trae (ByteDance)
+User-agent: Trae
+Disallow: /
+
+# YaDirectFetcher (Yandex)
+User-agent: YaDirectFetcher
+Disallow: /
+
+# Yandex (Yandex)
+User-agent: Yandex
+Disallow: /
+
+# YandexAccessibilityBot (Yandex)
+User-agent: YandexAccessibilityBot
+Disallow: /
+
+# YandexAdditional (Yandex)
+User-agent: YandexAdditional
+Disallow: /
+
+# YandexAdditionalBot (Yandex)
+User-agent: YandexAdditionalBot
+Disallow: /
+
+# YandexAdNet (Yandex)
+User-agent: YandexAdNet
+Disallow: /
+
+# YandexBlogs (Yandex)
+User-agent: YandexBlogs
+Disallow: /
+
+# YandexCalendar (Yandex)
+User-agent: YandexCalendar
+Disallow: /
+
+# YandexCheckBot (Yandex)
+User-agent: YandexCheckBot
+Disallow: /
+
+# YandexComBot (Yandex)
+User-agent: YandexComBot
+Disallow: /
+
+# YandexDirect (Yandex)
+User-agent: YandexDirect
+Disallow: /
+
+# YandexDirectDyn (Yandex)
+User-agent: YandexDirectDyn
+Disallow: /
+
+# YandexFavicons (Yandex)
+User-agent: YandexFavicons
+Disallow: /
+
+# YandexFeed (Yandex)
+User-agent: YandexFeed
+Disallow: /
+
+# YandexImageResizer (Yandex)
+User-agent: YandexImageResizer
+Disallow: /
+
+# YandexImages (Yandex)
+User-agent: YandexImages
+Disallow: /
+
+# YandexMarket (Yandex)
+User-agent: YandexMarket
+Disallow: /
+
+# YandexMedia (Yandex)
+User-agent: YandexMedia
+Disallow: /
+
+# YandexMobileBot (Yandex)
+User-agent: YandexMobileBot
+Disallow: /
+
+# YandexMobileScreenShotBot (Yandex)
+User-agent: YandexMobileScreenShotBot
+Disallow: /
+
+# YandexOntoDB (Yandex)
+User-agent: YandexOntoDB
+Disallow: /
+
+# YandexOntoDBAPI (Yandex)
+User-agent: YandexOntoDBAPI
+Disallow: /
+
+# YandexPagechecker (Yandex)
+User-agent: YandexPagechecker
+Disallow: /
+
+# YandexPartner (Yandex)
+User-agent: YandexPartner
+Disallow: /
+
+# YandexRCA (Yandex)
+User-agent: YandexRCA
+Disallow: /
+
+# YandexRenderResourcesBot (Yandex)
+User-agent: YandexRenderResourcesBot
+Disallow: /
+
+# YandexScreenshotBot (Yandex)
+User-agent: YandexScreenshotBot
+Disallow: /
+
+# YandexSearchShop (Yandex)
+User-agent: YandexSearchShop
+Disallow: /
+
+# YandexSitelinks (Yandex)
+User-agent: YandexSitelinks
+Disallow: /
+
+# YandexSpravBot (Yandex)
+User-agent: YandexSpravBot
+Disallow: /
+
+# YandexUserproxy (Yandex)
+User-agent: YandexUserproxy
+Disallow: /
+
+# YandexVerticals (Yandex)
+User-agent: YandexVerticals
+Disallow: /
+
+# YandexVertis (Yandex)
+User-agent: YandexVertis
+Disallow: /
+
+# YandexVideo (Yandex)
+User-agent: YandexVideo
+Disallow: /
+
+# YandexVideoParser (Yandex)
+User-agent: YandexVideoParser
+Disallow: /
+
+# YandexWebmaster (Yandex)
+User-agent: YandexWebmaster
+Disallow: /
+
+# ZipchatBot (Zipchat)
+User-agent: ZipchatBot
+Disallow: /
+
+# AhrefsBot (Ahrefs)
+User-agent: AhrefsBot
+Disallow: /
+
+# DataForSeoBot (DataForSEO)
+User-agent: DataForSeoBot
+Disallow: /
+
+# SemrushBot (Semrush)
+User-agent: SemrushBot
+Disallow: /
+
+# AhrefsSiteAudit (Ahrefs)
+User-agent: AhrefsSiteAudit
+Disallow: /
+
+# AwarioBot (Awario)
+User-agent: AwarioBot
+Disallow: /
+
+# AwarioRssBot (Awario)
+User-agent: AwarioRssBot
+Disallow: /
+
+# AwarioSmartBot (Awario)
+User-agent: AwarioSmartBot
+Disallow: /
+
+# Chrome-Lighthouse (Google)
+User-agent: Chrome-Lighthouse
+Disallow: /
+
+# DotBot (Moz)
+User-agent: DotBot
+Disallow: /
+
+# Google-CWS (Google)
+User-agent: Google-CWS
+Disallow: /
+
+# Meta-ExternalAds (Meta)
+User-agent: Meta-ExternalAds
+Disallow: /
+
+# meta-externaltest (Meta)
+User-agent: meta-externaltest
+Disallow: /
+
+# MJ12bot (Majestic)
+User-agent: MJ12bot
+Disallow: /
+
+# NeticleBot (Neticle)
+User-agent: NeticleBot
+Disallow: /
+
+# Netvibes (Dassault Systemes (Netvibes))
+User-agent: Netvibes
+Disallow: /
+
+# Rogerbot (Moz)
+User-agent: Rogerbot
+Disallow: /
+
+# Screaming Frog SEO Spider (Screaming Frog)
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
+# SemrushBot-OCOB (Semrush)
+User-agent: SemrushBot-OCOB
+Disallow: /
+
+# SemrushBot-SWA (Semrush)
+User-agent: SemrushBot-SWA
+Disallow: /
+
+# Sidetrade Indexer Bot (Sidetrade)
+User-agent: Sidetrade Indexer Bot
+Disallow: /
+
+# YandexMetrika (Yandex)
+User-agent: YandexMetrika
+Disallow: /
+
+# YandexTracker (Yandex)
+User-agent: YandexTracker
+Disallow: /
+
+# FacebookBot (Meta)
+User-agent: FacebookBot
+Disallow: /
+
+# Twitterbot (X (Twitter))
+User-agent: Twitterbot
+Disallow: /
+
+# facebookexternalhit (Meta)
+User-agent: facebookexternalhit
+Disallow: /
+
+# GoogleMessages (Google)
+User-agent: GoogleMessages
+Disallow: /
+
+# LinkedInBot (LinkedIn)
+User-agent: LinkedInBot
+Disallow: /
+
+# Pinterestbot (Pinterest)
+User-agent: Pinterestbot
+Disallow: /
+
+# Quora-Bot (Quora)
+User-agent: Quora-Bot
+Disallow: /
+
+# Slackbot (Slack)
+User-agent: Slackbot
+Disallow: /
+
+# Slackbot-LinkExpanding (Slack)
+User-agent: Slackbot-LinkExpanding
 Disallow: /
 
 # ApifyBot (Apify)
 User-agent: ApifyBot
 Disallow: /
 
-# QwenBot (Alibaba Cloud)
-User-agent: QwenBot
+# archive.org_bot (Internet Archive)
+User-agent: archive.org_bot
 Disallow: /
 
-# YandexGPT (Yandex)
-User-agent: YandexGPT
+# Barkrowler (Babbar)
+User-agent: Barkrowler
 Disallow: /
 
-# img2dataset (HuggingFace / Community)
-User-agent: img2dataset
+# Brightbot (Bright Data)
+User-agent: Brightbot
 Disallow: /
 
-# NewsPlease (Community / Various)
-User-agent: news-please/1.5
+# Diffbot (Diffbot)
+User-agent: Diffbot
 Disallow: /
 
-# Slurp (Yahoo / Verizon Media)
-User-agent: Slurp
+# ICC-Crawler (ICC)
+User-agent: ICC-Crawler
 Disallow: /
 
-# Twitterbot (X (formerly Twitter))
-User-agent: Twitterbot
+# omgili (Unknown)
+User-agent: omgili
 Disallow: /
 
-# Default — allow all other crawlers
-User-agent: *
-Allow: /
+# Timpibot (Timpi)
+User-agent: Timpibot
+Disallow: /
+
+# VelenPublicWebCrawler (Velen)
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+# AliyunSecBot (Alibaba Cloud)
+User-agent: AliyunSecBot
+Disallow: /
+
+# Amazon Kendra (Amazon)
+User-agent: Amazon Kendra
+Disallow: /
+
+# Arquivo-web-crawler (Arquivo.pt)
+User-agent: Arquivo-web-crawler
+Disallow: /
+
+# BLEXBot (WebMeUp)
+User-agent: BLEXBot
+Disallow: /
+
+# CCBot (Common Crawl)
+User-agent: CCBot
+Disallow: /
+
+# coccocbot-web (Unknown)
+User-agent: coccocbot-web
+Disallow: /
+
+# Cotoyogi (ROIS-DS)
+User-agent: Cotoyogi
+Disallow: /
+
+# Crawl4AI (Unknown)
+User-agent: Crawl4AI
+Disallow: /
+
+# crawler4j (Unknown)
+User-agent: crawler4j
+Disallow: /
+
+# Crawlspace (Crawlspace)
+User-agent: Crawlspace
+Disallow: /
+
+# Echobot Bot (Dealfront)
+User-agent: Echobot Bot
+Disallow: /
+
+# EchoboxBot (Echobox)
+User-agent: EchoboxBot
+Disallow: /
+
+# Factset_spyderbot (FactSet)
+User-agent: Factset_spyderbot
+Disallow: /
+
+# FriendlyCrawler (FriendlyCrawler)
+User-agent: FriendlyCrawler
+Disallow: /
+
+# ia_archiver (Internet Archive)
+User-agent: ia_archiver
+Disallow: /
+
+# ImagesiftBot (Hive)
+User-agent: ImagesiftBot
+Disallow: /
+
+# imgproxy (Open Source)
+User-agent: imgproxy
+Disallow: /
+
+# ISSCyberRiskCrawler (ISS)
+User-agent: ISSCyberRiskCrawler
+Disallow: /
+
+# Kangaroo Bot (Kangaroo)
+User-agent: Kangaroo Bot
+Disallow: /
+
+# magpie-crawler (Brandwatch)
+User-agent: magpie-crawler
+Disallow: /
+
+# MauiBot (MauiBot)
+User-agent: MauiBot
+Disallow: /
+
+# netEstate Imprint Crawler (netEstate)
+User-agent: netEstate Imprint Crawler
+Disallow: /
+
+# news-please (Open Source)
+User-agent: news-please
+Disallow: /
+
+# omgilibot (Unknown)
+User-agent: omgilibot
+Disallow: /
+
+# Panscient (Panscient)
+User-agent: Panscient
+Disallow: /
+
+# Poseidon Research Crawler (Poseidon Research)
+User-agent: Poseidon Research Crawler
+Disallow: /
+
+# QualifiedBot (Qualified)
+User-agent: QualifiedBot
+Disallow: /
+
+# Scrapy (Unknown)
+User-agent: Scrapy
+Disallow: /
+
+# SeekportBot (Seekport)
+User-agent: SeekportBot
+Disallow: /
+
+# TurnitinBot (Turnitin)
+User-agent: TurnitinBot
+Disallow: /
+
+# Webzio-Extended (Webz.io)
+User-agent: Webzio-Extended
+Disallow: /
+
+# yacy (YaCy Community)
+User-agent: yacy
+Disallow: /
+
+# yacybot (YaCy Community)
+User-agent: yacybot
+Disallow: /
+
