@@ -7,11 +7,15 @@
 
 .subheading-simple {
   text-shadow: 0 0 0px black !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
 }
 
 .catppuccin-text {
   background-color: #4c4f69 !important;
+}
+
+p.nojustify {
+  text-indent: 0;
 }
 
 .copyright-font {

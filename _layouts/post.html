@@ -34,7 +34,17 @@ layout: default
 
         {{ content }}
 
-        <hr>
+        <hr class="mt-5">
+        {% if page.footnotes.size > 0 %}
+          <strong>Footnotes:</strong>
+          {% assign i = 1 %}
+          {% for footnote in page.footnotes %}
+            <p><sup class="text-primary"><strong>{{i}}</strong></sup> {{footnote}}</p>
+            {% assign i = i | plus: 1 %}
+          {% endfor %}
+        {% endif %}
+
+        <!--<hr>
 
         <div class="clearfix">
 
@@ -47,7 +57,7 @@ layout: default
               Post</span> &rarr;</a>
           {% endif %}
 
-        </div>
+        </div>-->
 
       </div>
     </div>

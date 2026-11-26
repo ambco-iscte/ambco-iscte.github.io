@@ -38,3 +38,5 @@ gem 'csv', '~> 3.3'
 gem 'bigdecimal', '~> 4.1'
 
 # gem "liquid", "~> 5.13.0"
+#
+gem 'jekyll-email-protect'
