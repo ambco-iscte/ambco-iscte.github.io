@@ -35,29 +35,23 @@ layout: default
         {{ content }}
 
         <hr class="mt-5">
-        {% if page.footnotes.size > 0 %}
-          <strong>Footnotes:</strong>
-          {% assign i = 1 %}
-          {% for footnote in page.footnotes %}
-            <p><sup class="text-primary"><strong>{{i}}</strong></sup> {{footnote}}</p>
-            {% assign i = i | plus: 1 %}
-          {% endfor %}
-        {% endif %}
 
-        <!--<hr>
+        <p><strong>Footnotes:</strong></p>
+        {% print_footnotes %}
 
-        <div class="clearfix">
-
+        {% if page.previous.url or page.next.url %}
+          <hr>
+          <div class="clearfix">
           {% if page.previous.url %}
-          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
-              Post</span></a>
-          {% endif %}
-          {% if page.next.url %}
-          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
-              Post</span> &rarr;</a>
-          {% endif %}
-
-        </div>-->
+            <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
+               Post</span></a>
+            {% endif %}
+            {% if page.next.url %}
+            <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
+                Post</span> &rarr;</a>
+            {% endif %}
+          </div>
+        {% endif %}
 
       </div>
     </div>
